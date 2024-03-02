@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  color: #cecece;
+  background-color: #202020;
+}
+
+.wrapper {
+  width: 500px;
+  padding: 20px;
+  background-color: #303030;
+}
+
+.time-view {
+  margin-bottom: 20px;
+  padding: 10px;
+  font-size: 4rem;
+  text-align: center;
+  background-color: #404040;
+}
+
+#timer-form {
+  height: 40px;
+  display: flex;
+}
+
+#timer-input {
+  flex-grow: 1;
+  padding-inline: 10px;
+  font-size: 1.2rem;
+}
+
+#timer-form button {
+  padding: 3px 10px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
